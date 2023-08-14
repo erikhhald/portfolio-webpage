@@ -1,0 +1,140 @@
+* {
+    background-color: #EEE6D9;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header_list{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 12%;
+    padding: 0;
+}
+
+.header_list li{
+    list-style-type: none;
+    margin-right: 30%;
+}
+
+.header_list li a{
+    color:rgb(64, 64, 64);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header_list li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: rgb(104, 93, 163); 
+}
+
+body {
+    margin-top: 100px;
+}
+
+#name {
+    font-family: 'Poppins', monospace;
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(251, 101, 56);
+    margin-bottom: 30px;
+}
+
+.main {
+    margin-top: 100px;
+    padding-top: 70px;
+    margin: auto;
+    width: 45%;
+    color: rgb(64, 64, 64);
+}
+
+.main #bio{
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
+
+.main #bio b{
+    font-weight: 3000;
+    color: black;
+}
+
+.main img{
+    float: right;
+}
+
+
+.main address{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.main address a {
+    color: rgb(64, 64, 64);
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    padding: 1px;
+}
+
+.main address a:hover {
+    color: rgb(104, 93, 163);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    border-bottom: none;
+}
+
+.footer {
+    margin: auto;
+    width: 45%;
+    padding: 0;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer ul li {
+    list-style-type: none;
+    margin-right:15px
+}
+
+.footer a {
+    color: rgb(96, 96, 96);
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: rgb(104, 93, 163);
+}
+
+#test_list {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+}
+
+hr {
+    display: block;
+    box-sizing: border-box;
+
+    height: 22px;
+    margin: 0;
+    border: none;
+    border-bottom: 1px dashed rgb(128, 128, 128);
+    background: none;
+}
